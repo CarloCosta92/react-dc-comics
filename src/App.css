@@ -37,7 +37,7 @@ MAIN
 *****/
 
 main {
-    background-color: black;
+    background-color: #1c1c1c;
     color: #ffffff;
     margin: 0 auto;
     padding: 100px 15%;
@@ -47,3 +47,63 @@ main {
 /*****
 FOOTER
 *****/
+
+/*****
+card
+*****/
+
+.blue-banner {
+    display: flex;
+    background-color: #0282f9;
+    justify-content: space-between;
+    color: #ffffff;
+    gap: 20px;
+    padding: 50px 15%;
+}
+
+.card {
+    display: flex;
+    background-color: #0282f9;
+    color: #ffffff;
+    gap: 10px;
+    align-items: center;
+}
+
+.card img {
+    width: 50px;
+    color: #ffffff;
+}
+
+/*****
+liste
+*****/
+.ft-left {
+    display: flex;
+    gap: 50px;
+}
+
+.mainFooter {
+    display: flex;
+    padding: 50px 15%;
+    background-image: url("./assets/img/footer-bg.jpg");
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.footer-links-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-links-column ul {
+    list-style: none;
+}
+
+
+
+.footer-links-column a {
+    text-decoration: none;
+    color: #ffffff;
+}
