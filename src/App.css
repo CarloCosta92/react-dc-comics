@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+/*****
+HEADER
+*****/
+
+header {
+    margin: 50px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+/*****
+MAIN
+*****/
+
+main {
+    background-color: black;
+    color: #ffffff;
+}
