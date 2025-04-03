@@ -6,7 +6,9 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
 }
+
 
 
 
@@ -16,13 +18,12 @@ HEADER
 
 header {
     margin: 50px;
-}
-
-header div {
+    padding: 0 15%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
 
 header ul {
     display: flex;
@@ -38,4 +39,11 @@ MAIN
 main {
     background-color: black;
     color: #ffffff;
+    margin: 0 auto;
+    padding: 100px 15%;
 }
+
+
+/*****
+FOOTER
+*****/
