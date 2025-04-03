@@ -4,6 +4,11 @@ import subscriptions from '../assets/img/buy-comics-subscriptions.png';
 import shopLocator from '../assets/img/buy-comics-shop-locator.png';
 import powerVisa from '../assets/img/buy-dc-power-visa.svg';
 import bigLogo from '../assets/img/dc-logo-bg.png';
+import facebook from '../assets/img/footer-facebook.png';
+import twitter from '../assets/img/footer-twitter.png';
+import youtube from '../assets/img/footer-youtube.png';
+import pinterest from '../assets/img/footer-pinterest.png';
+import periscope from '../assets/img/footer-periscope.png';
 
 export default function Footer() {
     return (<footer>
@@ -85,6 +90,31 @@ export default function Footer() {
             </div>
         </section>
 
-        <section></section>
+        <section className='footer-social-container'>
+            <div>
+                <button className="signup-button">SIGN-UP NOW!</button>
+            </div>
+            <div className="social-container">
+                <span>FOLLOW US</span>
+                <div className="social-icons">
+                    <a href="#" className="social-icon">
+                        <img src={facebook} alt="facebook" />
+                    </a>
+                    <a href="#" className="social-icon">
+                        <img src={twitter} alt="twitter" />
+                    </a>
+                    <a href="#" className="social-icon">
+                        <img src={youtube} alt="youtube" />
+                    </a>
+                    <a href="#" className="social-icon">
+                        <img src={pinterest} alt="pinterest" />
+                    </a>
+                    <a href="#" className="social-icon">
+                        <img src={periscope} alt="periscope" />
+                    </a>
+
+                </div>
+            </div>
+        </section>
     </footer>)
 };

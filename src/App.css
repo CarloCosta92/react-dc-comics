@@ -17,8 +17,7 @@ HEADER
 *****/
 
 header {
-    margin: 50px;
-    padding: 0 15%;
+    padding: 30px 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +39,7 @@ main {
     background-color: #1c1c1c;
     color: #ffffff;
     margin: 0 auto;
-    padding: 100px 15%;
+    padding: 50px 15%;
 }
 
 
@@ -86,6 +85,7 @@ liste
     display: flex;
     padding: 50px 15%;
     background-image: url("./assets/img/footer-bg.jpg");
+    background-size: contain;
     justify-content: space-between;
     gap: 50px;
 }
@@ -106,4 +106,44 @@ liste
 .footer-links-column a {
     text-decoration: none;
     color: #ffffff;
+}
+
+/*****
+social
+*****/
+.footer-social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 15%;
+    background-color: #303030;
+}
+
+.signup-button {
+    background-color: #303030;
+    /* Sostituisci con il colore del pulsante desiderato */
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #0282f9;
+    border-radius: 5px;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-container span {
+    color: #0282f9;
+}
+
+.social-icons {
+    display: flex;
+
+}
+
+.social-icon {
+    margin-right: 10px;
+
 }
