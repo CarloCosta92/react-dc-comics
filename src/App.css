@@ -24,6 +24,12 @@ header {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
 
 header ul {
     display: flex;
@@ -31,12 +37,7 @@ header ul {
     list-style-type: none;
 }
 
-header ul li:hover {
-    cursor: pointer;
-    border-bottom: 1px solid #0282f9;
 
-
-}
 
 
 /*****
@@ -113,6 +114,10 @@ liste
 
 .footer-links-column a {
     text-decoration: none;
+    color: #959595;
+}
+
+.footer-links-column h3 {
     color: #ffffff;
 }
 

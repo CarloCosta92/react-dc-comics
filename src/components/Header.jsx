@@ -1,21 +1,11 @@
 import Logo from "./logo";
+import Menu from "./Menu.jsx";
 
 export default function Header() {
     return (<header>
 
         <Logo />
-        <ul>
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOPS</li>
-        </ul>
+        <Menu />
 
     </header>)
 };

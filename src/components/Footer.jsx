@@ -9,9 +9,11 @@ import twitter from '../assets/img/footer-twitter.png';
 import youtube from '../assets/img/footer-youtube.png';
 import pinterest from '../assets/img/footer-pinterest.png';
 import periscope from '../assets/img/footer-periscope.png';
+import BlueBar from './BlueBar';
 
 export default function Footer() {
     return (<footer>
+        <BlueBar />
         <div className="blue-banner">
             <div className="card">
                 <img src={digitalComics} alt="Fumetti Digitali" />
@@ -80,7 +82,7 @@ export default function Footer() {
                     <h3>SHOP</h3>
                     <ul>
                         <li><a href="#">Shop DC</a></li>
-                        <li><a href="#">Shop DC Collectibles</a></li>
+                        <li><a href="#">Shop DCCollectibles</a></li>
                     </ul>
 
                 </div>
