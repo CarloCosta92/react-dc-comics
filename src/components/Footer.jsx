@@ -9,33 +9,11 @@ import twitter from '../assets/img/footer-twitter.png';
 import youtube from '../assets/img/footer-youtube.png';
 import pinterest from '../assets/img/footer-pinterest.png';
 import periscope from '../assets/img/footer-periscope.png';
-import BlueBar from './BlueBar';
+import BlueBar from './BlueBar.jsx';
 
 export default function Footer() {
-    return (<footer>
+    return (<>
         <BlueBar />
-        <div className="blue-banner">
-            <div className="card">
-                <img src={digitalComics} alt="Fumetti Digitali" />
-                <span>FUMETTI DIGITALI</span>
-            </div>
-            <div className="card">
-                <img src={merchandise} alt="Merchandising DC" />
-                <span>MERCHANDISING DC</span>
-            </div>
-            <div className="card">
-                <img src={subscriptions} alt="Abbonamenti" />
-                <span>ABBONAMENTI</span>
-            </div>
-            <div className="card">
-                <img src={shopLocator} alt="Trova Fumetteria" />
-                <span>TROVA FUMETTERIA</span>
-            </div>
-            <div className="card">
-                <img src={powerVisa} alt="DC Power Visa" />
-                <span>DC POWER VISA</span>
-            </div>
-        </div>
         <div className="main-footer-container"></div>
         <section className='mainFooter'>
             <div className="ft-left">
@@ -118,5 +96,5 @@ export default function Footer() {
                 </div>
             </div>
         </section>
-    </footer>)
+    </>)
 };

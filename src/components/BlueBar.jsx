@@ -5,7 +5,8 @@ import shopLocator from '../assets/img/buy-comics-shop-locator.png';
 import powerVisa from '../assets/img/buy-dc-power-visa.svg';
 
 export default function BlueBar() {
-    <div className="blue-banner">
+
+    return <div className="blue-banner">
         <div className="card">
             <img src={digitalComics} alt="Fumetti Digitali" />
             <span>FUMETTI DIGITALI</span>
