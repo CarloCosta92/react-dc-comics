@@ -1,8 +1,3 @@
-import digitalComics from '../assets/img/buy-comics-digital-comics.png';
-import merchandise from '../assets/img/buy-comics-merchandise.png';
-import subscriptions from '../assets/img/buy-comics-subscriptions.png';
-import shopLocator from '../assets/img/buy-comics-shop-locator.png';
-import powerVisa from '../assets/img/buy-dc-power-visa.svg';
 import bigLogo from '../assets/img/dc-logo-bg.png';
 import facebook from '../assets/img/footer-facebook.png';
 import twitter from '../assets/img/footer-twitter.png';
@@ -11,60 +6,7 @@ import pinterest from '../assets/img/footer-pinterest.png';
 import periscope from '../assets/img/footer-periscope.png';
 import BlueBar from './BlueBar.jsx';
 import Menu from './Menu.jsx';
-
-const dcComics = [
-    {
-        text: "Characters",
-        href: "#"
-    }, {
-        text: "Comics",
-        href: "#"
-    }, {
-        text: "Movies",
-        href: "#"
-    }, {
-        text: "TV",
-        href: "#"
-    }, {
-        text: "Games",
-        href: "#"
-    }, {
-        text: "Videos",
-        href: "#"
-    },
-    {
-        text: "News",
-        href: "#"
-    }
-
-];
-
-const dc = [
-    { text: "Termo Of Use", href: "#" },
-    { text: "Privacy Policy(New)", href: "#" },
-    { text: "Ad Choices", href: "#" },
-    { text: "Advertising", href: "#" },
-    { text: "Jobs", href: "#" },
-    { text: "Subscription", href: "#" },
-    { text: "Talent WOrkshop", href: "#" },
-    { text: "Cpsc Certificates", href: "#" },
-    { text: "Ratings", href: "#" },
-    { text: "Hop Helps", href: "#" },
-    { text: "Contact Us", href: "#" }
-];
-
-const sites = [
-    { text: "DC", href: "#" },
-    { text: "MAD Magazine", href: "#" },
-    { text: "DC Kids", href: "#" },
-    { text: "DC Universe", href: "#" },
-    { text: "DC Power Visa", href: "#" }
-];
-
-const shop = [
-    { text: "Shop DC", href: "#" },
-    { text: "Shop DCCollectibles", href: "#" }
-]
+import { dcComics, dc, sites, shop } from './arrays.jsx';
 
 
 export default function Footer() {

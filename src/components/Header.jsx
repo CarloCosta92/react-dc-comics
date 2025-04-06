@@ -1,47 +1,6 @@
 import Logo from "./logo";
 import Menu from "./Menu.jsx";
-const linkHeader = [
-    {
-        text: "CHARACTERS",
-        href: "#"
-    },
-    {
-        text: "COMICS",
-        href: "#"
-    },
-    {
-        text: "MOVIES",
-        href: "#"
-    },
-    {
-        text: "TV",
-        href: "#"
-    },
-    {
-        text: "GAMES",
-        href: "#"
-    },
-    {
-        text: "COLLECTIBLES",
-        href: "#"
-    },
-    {
-        text: "VIDEOS",
-        href: "#"
-    },
-    {
-        text: "FANS",
-        href: "#"
-    },
-    {
-        text: "NEWS",
-        href: "#"
-    },
-    {
-        text: "SHOPS",
-        href: "#"
-    },
-];
+import { linkHeader } from './arrays.jsx';
 
 export default function Header() {
 
