@@ -1,6 +1,6 @@
 import Logo from "./logo";
 import Menu from "./Menu.jsx";
-const link = [
+const linkHeader = [
     {
         text: "CHARACTERS",
         href: "#"
@@ -48,7 +48,7 @@ export default function Header() {
     return (<header>
 
         <Logo />
-        <Menu link={link} />
+        <Menu link={linkHeader} />
 
     </header>)
 };

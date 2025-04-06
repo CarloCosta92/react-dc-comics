@@ -10,6 +10,62 @@ import youtube from '../assets/img/footer-youtube.png';
 import pinterest from '../assets/img/footer-pinterest.png';
 import periscope from '../assets/img/footer-periscope.png';
 import BlueBar from './BlueBar.jsx';
+import Menu from './Menu.jsx';
+
+const dcComics = [
+    {
+        text: "Characters",
+        href: "#"
+    }, {
+        text: "Comics",
+        href: "#"
+    }, {
+        text: "Movies",
+        href: "#"
+    }, {
+        text: "TV",
+        href: "#"
+    }, {
+        text: "Games",
+        href: "#"
+    }, {
+        text: "Videos",
+        href: "#"
+    },
+    {
+        text: "News",
+        href: "#"
+    }
+
+];
+
+const dc = [
+    { text: "Termo Of Use", href: "#" },
+    { text: "Privacy Policy(New)", href: "#" },
+    { text: "Ad Choices", href: "#" },
+    { text: "Advertising", href: "#" },
+    { text: "Jobs", href: "#" },
+    { text: "Subscription", href: "#" },
+    { text: "Talent WOrkshop", href: "#" },
+    { text: "Cpsc Certificates", href: "#" },
+    { text: "Ratings", href: "#" },
+    { text: "Hop Helps", href: "#" },
+    { text: "Contact Us", href: "#" }
+];
+
+const sites = [
+    { text: "DC", href: "#" },
+    { text: "MAD Magazine", href: "#" },
+    { text: "DC Kids", href: "#" },
+    { text: "DC Universe", href: "#" },
+    { text: "DC Power Visa", href: "#" }
+];
+
+const shop = [
+    { text: "Shop DC", href: "#" },
+    { text: "Shop DCCollectibles", href: "#" }
+]
+
 
 export default function Footer() {
     return (<>
@@ -19,49 +75,25 @@ export default function Footer() {
             <div className="ft-left">
                 <div className="footer-links-column">
                     <h3>DC COMICS</h3>
-                    <ul>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">News</a></li>
-                    </ul>
+
+                    <Menu link={dcComics} />
+
                 </div>
                 <div className="footer-links-column">
                     <h3>DC</h3>
-                    <ul>
-                        <li><a href="#">Termo Of Use</a></li>
-                        <li><a href="#">Privacy Policy(New)</a></li>
-                        <li><a href="#">Ad Choices</a></li>
-                        <li><a href="#">Advertising</a></li>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Subscription</a></li>
-                        <li><a href="#">Talent WOrkshop</a></li>
-                        <li><a href="#">Cpsc Certificates</a></li>
-                        <li><a href="#">Ratings</a></li>
-                        <li><a href="#">Hop Helps</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
+
+                    <Menu link={dc} />
+
                 </div>
                 <div className="footer-links-column">
                     <h3>SITES</h3>
-                    <ul>
-                        <li><a href="#">DC</a></li>
-                        <li><a href="#">MAD Magazine</a></li>
-                        <li><a href="#">DC Kids</a></li>
-                        <li><a href="#">DC Universe</a></li>
-                        <li><a href="#">DC Power Visa</a></li>
 
-                    </ul>
+                    <Menu link={sites} />
                 </div>
                 <div className="footer-links-column">
                     <h3>SHOP</h3>
-                    <ul>
-                        <li><a href="#">Shop DC</a></li>
-                        <li><a href="#">Shop DCCollectibles</a></li>
-                    </ul>
+
+                    <Menu link={shop} />
 
                 </div>
             </div>
