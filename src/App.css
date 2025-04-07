@@ -83,6 +83,29 @@ card
 }
 
 /*****
+cards main
+*****/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    width: 200px;
+    gap: 50px;
+}
+
+.img-card {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+/*****
 liste
 *****/
 .ft-left {
