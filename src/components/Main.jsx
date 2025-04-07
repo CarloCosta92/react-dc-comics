@@ -6,7 +6,12 @@ export default function Main() {
         </div>
         <div className="jumbotron">
 
+            <div className="current-series">CURRENT SERIES</div>
+
             <Card />
+
+            <button type="button" className="load-more">LOAD MORE</button>
+
         </div>
     </main>)
 };

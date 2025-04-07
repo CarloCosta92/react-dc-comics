@@ -113,6 +113,31 @@ cards main
     height: 400px;
 }
 
+.current-series {
+    width: 240px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0282f9;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.load-more {
+    width: 240px;
+    padding: 10px;
+    background-color: #0282f9;
+    color: #ffffff;
+    font-weight: bolder;
+    position: relative;
+    bottom: -30px;
+    transform: translateX(-50%);
+    left: 50%;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
 
 
 
