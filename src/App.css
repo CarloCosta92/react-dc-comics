@@ -92,13 +92,13 @@ cards main
 }
 
 .cards {
-    width: 200px;
+    width: calc((100% - 100px) / 6);
     gap: 50px;
 }
 
 .img-card {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 
